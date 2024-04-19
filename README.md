@@ -23,3 +23,12 @@ _The hardware in this Machine is as follows_:
 - Audio: Realtek ALC892 (alcid=18)
 
 # BIOS Settings
+- **Advanced**
+  - CPU Configuration ~> Virtualization Tech ~> Enabled
+  - SATA Configuration ~> SATA Controller Mode ~> AHCI Mode
+  - Onboard Devices Settings ~> Serial Port1 Configuartion ~> Disabled
+- **Security**
+  - Secure Boot ~> Disabled
+- **Boot**
+  - Launch CSM ~> Disabled
+
