@@ -32,3 +32,5 @@ _The hardware in this Machine is as follows_:
 - **Boot**
   - Launch CSM ~> Disabled
 
+# OCLP
+- Go straight to **Post-Install Root Patch** to patch iGPU
