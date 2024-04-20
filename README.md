@@ -1,6 +1,7 @@
 # Pegatron-H87-M1-Hackintosh-Ventura
 This repository and project hosts the files necessary to boot macOS Ventura with OpenCore 0.9.9 successfully on the Pegatron H81-M1 motherboard using Haswell GT2 Graphics (list of GT2 tier Graphics: https://wikipedia.org/wiki/Intel_Graphics_Technology#Haswell)
-![Pegatron H87-M1](https://github.com/BluePurplePro/Pegatron-H87-M1-Hackintosh-Ventura/assets/84092284/bb965a03-cd0a-4c2c-9047-431efd9ad292)
+![Pegatron H87-M1](https://github.com/BluePurplePro/Pegatron-H87-M1-Hackintosh-Ventura/assets/84092284/cc48178e-e9e2-4d32-b704-543837fbb600)
+
 
 # DISCLAIMER
 THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND RESEARCH PURPOSES, AND IS IN NO MAY MEANT TO PROMOTE CIRCUMVENTING OF ANYTHING THAT IS SOMEONE ELSE'S CORPORATE PRIVATE PROPERTY. THE INFORMATION LISTED HERE IS PURELY FOR EDUCATIONAL PURPOSES AND SHOULD YOU CHOOSE TO UTILIZE IT IN ANY WAY, I AM IN NO WAY RESPONSIBLE FOR ANY INJUNCTIONS/PROBLEMS THAT MAY OR MAY NOT ARISE AND/OR BE BROUGHT AGAINST ANOTHER FOR THEIR CHOOSING TO HAVE DONE SO.
