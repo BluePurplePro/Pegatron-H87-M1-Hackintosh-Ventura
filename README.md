@@ -11,7 +11,7 @@ THIS INFORMATION/RESEARCH HAS BEEN DONE AND SHARED PURELY FOR EXPERIMENTAL AND R
 - https://dortania.github.io/OpenCore-Legacy-Patcher/
 
 # Deployment
-To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to generate new serial number, rom, UUID, etcetera, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
+To deploy this project properly, please obtain the EFI folder from this repository, edit the config.plist to **generate new serial number, rom, UUID, etcetera**, then save config.plist, and place the files onto the appropriate ESP EFI partition in order to boot using OpenCore bootloader and proceed with your installation of macOS.
 
 # Documentation
 _The hardware in this Machine is as follows_:
@@ -24,6 +24,20 @@ _The hardware in this Machine is as follows_:
 - Ethernet: Realtek RTL8111
 - Audio: Realtek ALC892 (alcid=18)
 
+# Kernel Extensions corresponding to hardware/utility
+| Hardware  | Kext(s) |
+| ------------- | ------------- |
+| Intel(R) HD Graphics 4400/4600 | [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen) |
+| mSATA SSD | AppleAHCIPort.kext (patching **com.apple.driver.AppleAHCIPort** with find ``40600200``, replace ``00000000`` |
+| Realtek Ethernet  | [RealtekRTL8111.kext](https://github.com/Mieze/RTL8111_driver_for_OS_X) |
+| Audio Realtek ALC892 | [AppleALC.kext](https://github.com/acidanthera/AppleALC) |
+
+
+| Utility  | Kext(s) |
+| ------------- | ------------- |
+| Disabling AMFI | AMFIPass.kext |
+
+
 # BIOS Settings
 - **Advanced**
   - CPU Configuration ~> Virtualization Tech ~> Enabled
@@ -35,4 +49,5 @@ _The hardware in this Machine is as follows_:
   - Launch CSM ~> Disabled
 
 # OCLP
-- Go straight to **Post-Install Root Patch** to patch iGPU
+- Download and install [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
+- Open OCLP and click **Post-Install Root Patch** to patch iGPU
